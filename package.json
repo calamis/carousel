@@ -1,0 +1,30 @@
+{
+  "name": "carousel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.2.1",
+    "node-sass": "^4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-slick": "^0.25.2",
+    "react-test-renderer": "^16.12.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "setupFiles": ["test-setup.js"]
+  }
+}
